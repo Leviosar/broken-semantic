@@ -6,7 +6,23 @@
         <description>Recent content on Broken Semantics</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en</language>
-        <lastBuildDate>Sat, 04 May 2024 13:52:19 -0300</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Sat, 04 May 2024 16:14:42 -0300</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Another opinionated API building guide</title>
+        <link>http://localhost:1313/posts/api-guide/</link>
+        <pubDate>Sat, 04 May 2024 16:14:42 -0300</pubDate>
+        
+        <guid>http://localhost:1313/posts/api-guide/</guid>
+        <description>&lt;p&gt;A significant amount of a web developer&amp;rsquo;s work consists of writing or consuming APIs. The consume part is commonly easy: you read the docs, generate your credentials, plan on what resources you need and implement an integration on your target app (now that i wrote all the steps maybe it&amp;rsquo;s not so easy). In the worst case you end up with a messy (but functional) implementation that gets the job done.&lt;/p&gt;
+&lt;p&gt;On the other hand, writing can be more tricky and complex, involving skills that usually surpasses basic development knowledge. Sure, this applies if you want to write a &lt;em&gt;good&lt;/em&gt; API. But what are the parameters we can use to classify and API as &lt;em&gt;good&lt;/em&gt; or &lt;em&gt;~(a piece of shit)~&lt;/em&gt;?&lt;/p&gt;
+&lt;!-- Uma parte significativa do trabalho de uma pessoa programadora que trabalhe com a web é escrever ou consumir APIs. Consumir costuma ser simples, você lê a documentação, gera suas credenciais, planeja quais recursos precisa consumir e implementar a integração na sua aplicação alvo (ok, talvez não tão simples assim). No pior dos casos você vai acabar com uma implementação um pouco confusa mas que ainda assim provavelmente irá funcionar e fazer o trabalho a que se propõe. --&gt;
+&lt;!-- Escrever, por outro lado, é uma tarefa muito mais complexa e envolve habilidades que muitas vezes ultrapassam o conhecimento técnico mais comum. Claro, isso se você quiser escrever uma _boa_ API. Mas quais são exatamente os parâmetros que podemos usar para classificar uma API como _boa_? Se você perguntar isso para 10 pessoas talvez você receba 10 respostas ligeiramente diferentes, mas acredito que a maior delas irá gravitar em torno de alguns princípios básicos que muitas vezes são conhecidos mas não são priorizados.
+
+Esse artigo se divide em duas partes, iniciando com uma discussão teórica sobre pontos destacáveis que podem contribuir para a qualidade geral de uma API, seguido de um exemplo prático de estruturação de uma API REST --&gt;
+&lt;!-- ### Compreensibilidade
+
+Como o acrônimo sugere, uma API é uma interface entre sua aplicação e o mundo exterior, e toda interface para ser útil precisa ser compreensível, esse é o primeiro desafio de escrever uma API: outras pessoas precisam ser capazes de extrair informação sem precisar te consultar sobre a estrutura toda da API. --&gt;</description>
+        </item>
+        <item>
         <title>Another oppinionated API building guide</title>
         <link>http://localhost:1313/posts/welcome/</link>
         <pubDate>Sat, 04 May 2024 13:52:19 -0300</pubDate>
